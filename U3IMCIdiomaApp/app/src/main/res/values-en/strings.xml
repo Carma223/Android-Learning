@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">U3IMCApp</string>
+    <string name="titulo_app">Body Mass Index</string>
+    <string name="peso">Weight (kg)</string>
+    <string name="estatura">Height (m)</string>
+    <string name="btn_calcular">Calculate BMI</string>
+    <string name="btn_acercade">About...</string>
+    <string name="resultado_imc">Your BMI is</string>
+    <string name="condicion_salud">Your health condition is</string>
+    <string name="delgadez_muy_severa">Very severe slimness</string>
+    <string name="delgadez_severa">Severe slimness</string>
+    <string name="delgadez">Slimness</string>
+    <string name="saludable">Healthy weight</string>
+    <string name="sobrepreso">Overweight</string>
+    <string name="obesidad_moderada">Moderated obesity</string>
+    <string name="obesidad_severa">Severe obesity</string>
+    <string name="obesidad_muysevera">"Very severe obesity "</string>
+    <string name="creado_por">Created by:</string>
+    <string name="aceptar">Accept</string>
+    <string name="imc">BMI</string>
+    <string name="aviso">Warning</string>
+    <string name="null_campos">Fields are empty</string>
+    <string name="about_app">ABOUT THIS APP</string>
+    <string name="gracias">Thanks for using the app!</string>
+</resources>
