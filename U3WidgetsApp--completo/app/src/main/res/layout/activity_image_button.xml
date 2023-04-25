@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5200ACC1"
+    tools:context=".actividades.ImageButtonActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="132dp"
+        android:layout_height="122dp"
+        android:background="@drawable/imagebutton_esquinas_redondeadas"
+        android:contentDescription="Prueba de ImageButton"
+        android:onClick="imgbtnCandadoClick"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imagebutton_selector" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="273dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="El siguiente ImageButton está personalizado para mostrar 3 imagenes diferentes en él: una por default, otra cuando toma el enfoque y otra cuando se presiona, esto se hace mediante el atributo scrCompat. El boton tiene la apariencia de esquinas redondeadas lo cual se logra mediante un xml en los drawables que se configura en el atributo background."
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

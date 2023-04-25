@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">U3SpinnerEjemploApp</string>
+
+    <string-array name="clubes_liga_jmx">
+        <item>Hamburguesa</item>
+        <item>Tamal</item>
+        <item>Guajolota</item>
+        <item>Pan dulce</item>
+        <item>Tacos</item>
+        <item>Carne Asada</item>
+        <item>Alitas</item>
+        <item>Sandia</item>
+        <item>Pato a la naranja</item>
+    </string-array>
+</resources>
